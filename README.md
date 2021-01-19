@@ -7,11 +7,11 @@ It is made using `HTML, CSS, JavaScript, React, Styled Components, Gatsby` to de
 
 ## Live Demo
 
-View the live demo of the application here 👉 []()
+View the live demo of the application here 👉 [personal-profile](https://jaynil-profile.netlify.app/)
 
 ## Application View
 
-![]()
+![front-page](assets\front-page.PNG)
 
 ## Technologies Used
 
