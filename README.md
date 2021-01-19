@@ -8,6 +8,7 @@ It is made using `HTML, CSS, JavaScript, React, Styled Components, Gatsby` to de
 ## Live Demo
 
 View the live demo of the application here 👉 [personal-profile](https://jaynil-profile.netlify.app/)
+
 Backend is hosted on Heroku app 👉 [heroku-backend](https://jaynil-profile.herokuapp.com/)
 
 ## Application View
