@@ -49,6 +49,9 @@ export const Details = styled.div`
       font-size: 26pt;
     }
   }
+  .display-links {
+    display: flex;
+  }
   .hire-me {
     background: ${({ theme }) => (theme === "light" ? "#005554" : "#66BD88")};
     margin-right: 20px;

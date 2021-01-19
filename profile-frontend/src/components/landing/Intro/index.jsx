@@ -12,7 +12,7 @@ import linkedinLogoWhite from 'assets/illustrations/linkedin_white.png';
 import githubLogoWhite from 'assets/illustrations/github_white.png';
 
 import { IntroWrapper, Details, Thumbnail } from './styles';
-
+  
 export const Intro = () => {
   const { theme } = useContext(ThemeContext);
 
@@ -23,7 +23,7 @@ export const Intro = () => {
         <Details theme={theme}>
           <h1>{greeting}</h1>
           <h4>{greetingDescription}</h4>
-          <div>
+          <div className="display-links">
             <Button as={AnchorLink} href="#contact" className="hire-me">
               Hire me
             </Button>{' '}

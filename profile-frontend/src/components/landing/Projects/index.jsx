@@ -26,11 +26,10 @@ export const Projects = () => {
       .then((response) => response.data)
       .then((repoData) => {
         repoData.sort((a, b) =>
-          a.stargazers_count < b.stargazers_count ? 1 : -1
+        new Date(a['updated_at']) < new Date(b['updated_at']) ? 1 : -1
+          // a.stargazers_count < b.stargazers_count ? 1 : -1
         );
-        console.log(new Date(repoData[0]['updated_at']))
-        console.log(new Date(repoData[1]['updated_at']))
-        console.log(new Date(repoData[0]['updated_at']) > new Date(repoData[0]['updated_at']))        
+        // console.log(new Date(repoData[0]['updated_at']) > new Date(repoData[0]['updated_at']))        
         // console.log(repoData);
         repoData = repoData.slice(0, 8);
         setRepos(repoData);
