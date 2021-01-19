@@ -11,7 +11,7 @@ View the live demo of the application here 👉 [personal-profile](https://jayni
 
 ## Application View
 
-![front-page](assets\front-page.PNG)
+![front-page](./assets/front-page.PNG)
 
 ## Technologies Used
 
